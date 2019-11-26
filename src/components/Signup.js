@@ -6,7 +6,7 @@ class Signup extends Component {
     render() {
         return(
             <div className ='container'>
-                This is the Signup form
+                
             </div>
         )
     }

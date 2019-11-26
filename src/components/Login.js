@@ -9,7 +9,7 @@ class Login extends Component {
 			fields: {},
 			errors: {}
 		}
-	}
+   }
 
 	// Validate that the user has entered an email and password that is at least 8 char long
 	handleValidation() {
