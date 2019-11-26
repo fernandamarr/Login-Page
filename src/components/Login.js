@@ -37,7 +37,7 @@ class Login extends Component {
 	submitForm(e) {
 		e.preventDefault();
 		if(this.handleValidation()){
-			alert('Form submitted successfully');
+			alert('You have logged in successfully');
 		}
 	}
 
@@ -50,7 +50,7 @@ class Login extends Component {
 	render() {
 		return(
 			<div className ='container'>
-				<form name='login-form' onSubmit={this.submitForm.bind(this)}>
+				<form name='form' onSubmit={this.submitForm.bind(this)}>
 					<div className='form-group'>
 						<input ref='email' type='email' name='email' className='form-control' placeholder='Email Address' value={this.state.fields['email'] || ''} onChange={this.handleChange.bind(this, 'email')} required />
 						<div className='errorMsg'>{this.state.errors.email}</div>

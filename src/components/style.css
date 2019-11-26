@@ -1,11 +1,3 @@
-.App {
-	text-align: center;
-}
-
-.App-logo {
-	height: 40vmin;
-}
-
 .App-header {
 	min-height: 100vh;
 	display: flex;
@@ -16,8 +8,39 @@
 	color: white;
 }
 
+.title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.signup-container {
+    margin: 100px;
+}
+
+.asterisk {
+    color: red;
+}
+
 .errorMsg {
-	color: #f6c2c2;
-	font-size: 22px;
+	color: #ff7171;
+	font-size: 20px;
 	margin-top: 10px;
+
+}
+
+.links {
+	text-align: left;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.links:hover {
+	text-decoration: none;
+}
+
+.container {
+	padding: 40px;
+	background-color: #4E5D6C;
+	border-radius: 8px;
 }
