@@ -9,11 +9,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Switch>            
-          <Route exact path="/" component={Login} />
-          <Route path="/reset" component={Reset} />
-          <Route path="/signup" component={Signup} />
-        </Switch>
+        <header className="App-header">
+          <Switch>            
+            <Route exact path="/" component={Login} />
+            <Route path="/reset" component={Reset} />
+            <Route path="/signup" component={Signup} />
+          </Switch>
+        </header>
       </div>
     </Router>
   );
