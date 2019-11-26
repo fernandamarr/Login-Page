@@ -11,7 +11,6 @@ it('renders without crashing', () => {
 
 it('handles validation', () => {
 	expect(formIsValid).toBe(false);
-
 	instance.handleValidation();
 	expect(formIsValid)toBe(true);
 	expect(tree.toJSON()).toMatchSnapshot()
