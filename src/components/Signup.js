@@ -49,16 +49,16 @@ class Signup extends Component {
 				<div className='form-row'>             
 					<div className='form-group col-md-6'>
 						<label>Preferred Language<span className="asterisk"> *</span></label>
-						<select id='inputLanguage' className='form-control'>
-							<option selected>English</option>
+						<select id='inputLanguage' className='form-control' defaultValue="English">
+							<option>English</option>
 							<option>French</option>
 							<option>Spanish</option>
 						</select>
 					</div>
 					<div className='form-group col-md-6'>
 						<label>Country<span className="asterisk"> *</span></label>
-						<select id='inputCountry' className='form-control' required>
-							<option selected>United States</option>
+						<select id='inputCountry' className='form-control' defaultValue="United States" required>
+							<option>United States</option>
 							<option>Canada</option>
 							<option>Australia</option>
 							<option>United Kingdom</option>
@@ -94,7 +94,6 @@ class Signup extends Component {
 				</div>
 			</form>
 		</div>
-			
 		)
 	}
 }

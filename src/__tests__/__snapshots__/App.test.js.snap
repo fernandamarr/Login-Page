@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My first snapshot test testing app button 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <div
+      className="container"
+    >
+      <form
+        name="form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="email"
+            onChange={[Function]}
+            placeholder="Email Address"
+            required={true}
+            type="email"
+            value=""
+          />
+          <div
+            className="errorMsg"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            required={true}
+            type="password"
+            value=""
+          />
+          <div
+            className="errorMsg"
+          />
+        </div>
+        <button
+          className="btn btn-primary"
+          type="submit"
+        >
+          Login
+        </button>
+        <div
+          className="links"
+        >
+          <a
+            className="links"
+            href="/reset"
+            onClick={[Function]}
+          >
+            Forgot my password
+          </a>
+          <span
+            className="divider"
+          >
+             | 
+          </span>
+          <a
+            className="links"
+            href="/signup"
+            onClick={[Function]}
+          >
+            Sign Up
+          </a>
+        </div>
+      </form>
+    </div>
+  </header>
+</div>
+`;
